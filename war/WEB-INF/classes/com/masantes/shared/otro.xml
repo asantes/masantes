@@ -1,0 +1,143 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+			xmlns:g="urn:import:com.google.gwt.user.client.ui"
+			xmlns:b="urn:import:org.gwtbootstrap3.client.ui">
+			
+
+	<ui:style gss="true">
+	
+		.my-navbar{
+			font-family: 'Raleway', sans-serif !important;
+			font-size: 20px;
+			padding-top: 18px;
+		}
+		
+		.my-header{
+			width:100%;
+		}
+		
+		/*  C E N T E R   L I N K S  */
+		.navbar-center {
+		    float:none;
+		    margin:0 auto;
+		    display: block;
+		    text-align: left;
+		    width: 66%;
+		}
+		
+		.navbar-center > li {
+		    display: inline-block;
+		    float:none;
+		    margin-right: 0.80em;
+		}
+		
+		@media (max-width: 768px) 
+		{
+			.navbar-center{
+				width:100%;
+			}
+			
+		  	.navbar-center > li {
+			    display: inline !important;
+			    margin-right: 0;
+			}
+			
+			.sub-text{
+	
+
+			}
+			
+		}
+		/* ---------------------------------------- */
+		
+		
+		
+		/*  N O M B R E   AND   D E S C R I P C I O N  */
+		
+		.name-wrapper{
+			float:none;
+		}
+
+		.logo{
+			display: inline !important;
+			font-family: 'nimbus-sans', sans-serif !important;
+			letter-spacing: -0.08em;
+		}
+		
+		.name{
+			color: rgba(155, 186, 182, 1);
+		}
+		
+		.lastName{
+			color: black;
+		}
+		
+		.sub-text{
+			color: grey;
+			margin-top: 15px;
+			margin-bottom: 0px;
+		
+		}	
+		/*-------------------------------------------------------------------*/
+
+	</ui:style>
+
+
+	<g:HTMLPanel>
+	
+		<nav class="navbar navbar-default navbar-fixed-top {style.my-navbar}">
+		  <div class="container-fluid">
+		  	<div class="row">
+				<div class="col-xs-12">
+		    		<div class="navbar-header {style.my-header}">
+		    
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span> 
+						</button>
+							<div class="row">
+								<div class="col-xs-12
+											col-sm-7
+											col-md-offset-1 col-md-6
+											col-lg-5 {style.name-wrapper}">
+										
+										<div class="row">
+										<div class="col-sm-offset-2 col-sm-12
+													col-md-offset-3
+													col-lg-offset-4 col-lg-12">
+										<h1 class="{style.logo} {style.name}">MARIA SANCHEZ</h1>
+			  							<h2 class="{style.logo} {style.lastName}">TESTON</h2>
+			  							</div>
+			  							</div>
+				  
+		  						</div>
+		  						
+		  						<div class="hidden-xs
+		  									col-sm-4 col-sm-offset-1
+		  									col-md-4
+		  									col-lg-3">
+		  							<h4 class="{style.sub-text}">Filmaker &amp; Scriptwriter<br></br>&nbsp;&nbsp;&nbsp;&nbsp;Directora &amp; Guionista</h4>
+		  						</div>
+		  					</div>
+					</div>
+		      </div>
+			</div>
+		    
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		
+		    
+		      <ul class="nav navbar-nav {style.navbar-center}">
+		        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#home/">ABOUT</a></li>
+		        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#show-reel/">SHOWREEL</a></li>
+		        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#work/">WORK</a></li>
+		        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact/">CONTACT</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		  </nav>
+	
+	</g:HTMLPanel>
+			
+</ui:UiBinder> 

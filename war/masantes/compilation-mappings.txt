@@ -1,0 +1,57 @@
+4E2D821955346148F435688CF8BD0E51.cache.js
+ClientBundle.enableInlining true
+audioElementSupport maybe
+canvasElementSupport maybe
+compiler.emulatedStack false
+compiler.predeclare.cross.fragment.references false
+compiler.stackMode emulated
+compiler.useSourceMaps false
+compiler.useSymbolMaps false
+dragEventSupport maybe
+gwt.enableDebugId false
+gwt.forceBidi false
+gwt.logging.consoleHandler DISABLED
+gwt.logging.developmentModeHandler ENABLED
+gwt.logging.enabled TRUE
+gwt.logging.hasWidgetsHandler DISABLED
+gwt.logging.logLevel INFO
+gwt.logging.simpleRemoteHandler ENABLED
+gwt.logging.systemHandler DISABLED
+gwt.suppressNonStaticFinalFieldWarnings false
+locale default
+rpc.XserializeFinalFields false
+superdevmode off
+touchEventSupport maybe
+user.agent safari
+videoElementSupport maybe
+webApiUsage modern
+
+4E2D821955346148F435688CF8BD0E51.cache.js
+ClientBundle.enableInlining true
+audioElementSupport maybe
+canvasElementSupport maybe
+compiler.emulatedStack false
+compiler.predeclare.cross.fragment.references false
+compiler.stackMode emulated
+compiler.useSourceMaps false
+compiler.useSymbolMaps false
+dragEventSupport maybe
+gwt.enableDebugId false
+gwt.forceBidi false
+gwt.logging.consoleHandler DISABLED
+gwt.logging.developmentModeHandler ENABLED
+gwt.logging.enabled TRUE
+gwt.logging.hasWidgetsHandler DISABLED
+gwt.logging.logLevel INFO
+gwt.logging.simpleRemoteHandler ENABLED
+gwt.logging.systemHandler DISABLED
+gwt.suppressNonStaticFinalFieldWarnings false
+locale es
+rpc.XserializeFinalFields false
+superdevmode off
+touchEventSupport maybe
+user.agent safari
+videoElementSupport maybe
+webApiUsage modern
+
+Devmode:devmode.js

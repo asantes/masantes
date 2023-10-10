@@ -1,0 +1,171 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+    
+    html{
+		height: 100%;
+	}
+	
+	body 
+	{
+		font-family: 'Open Sans', sans-serif !important;
+		padding-top: 123px !important;
+		height: 100%;
+		color: white !important;
+	}
+    
+    .mainContent{
+		background-color: black;
+		height: 100%;
+		overflow:auto;
+	}
+	
+
+	/*  C A R O U S E L  */
+	
+    /* Full-size carousel images */
+	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+		display: block;
+		height: 625px !important;
+		max-width: 100%;
+		line-height: 1;
+		width: 100%; 
+	}
+	
+	/* Face effect between transitions */
+	.carousel-fade .carousel-inner .item {
+	  opacity: 0;
+	  transition-property: opacity;
+	  transition: opacity 3s !important;
+	}
+	
+	.carousel-fade .carousel-inner .active {
+	  opacity: 1;
+	}
+	
+	.carousel-fade .carousel-inner .active.left,
+	.carousel-fade .carousel-inner .active.right {
+	  left: 0;
+	  opacity: 0;
+	  z-index: 1;
+	}
+	
+	.carousel-fade .carousel-inner .next.left,
+	.carousel-fade .carousel-inner .prev.right {
+	  opacity: 1;
+	}
+	
+	.carousel-fade .carousel-control {
+	  z-index: 2;
+	}
+
+	@media all and (transform-3d)
+	{
+	    .carousel-fade .carousel-inner > .item.next,
+	    .carousel-fade .carousel-inner > .item.active.right {
+	      opacity: 0;
+	      -webkit-transform: translate3d(0, 0, 0);
+	              transform: translate3d(0, 0, 0);
+	    }
+	    .carousel-fade .carousel-inner > .item.prev,
+	    .carousel-fade .carousel-inner > .item.active.left {
+	      opacity: 0;
+	      -webkit-transform: translate3d(0, 0, 0);
+	              transform: translate3d(0, 0, 0);
+	    }
+	    .carousel-fade .carousel-inner > .item.next.left,
+	    .carousel-fade .carousel-inner > .item.prev.right,
+	    .carousel-fade .carousel-inner > .item.active {
+	      opacity: 1;
+	      -webkit-transform: translate3d(0, 0, 0);
+	              transform: translate3d(0, 0, 0);
+	    }
+	}
+	/*  C A R O U S E L   E N D  */
+	
+	
+	/*  M O D A L  */
+	.modal {
+	  text-align: center;
+	  padding: 0!important;
+	}
+	
+	.modal:before {
+	  content: '';
+	  display: inline-block;
+	  height: 100%;
+	  vertical-align: middle;
+	  margin-right: -4px;
+	}
+	
+	.modal-dialog {
+	  display: inline-block;
+	  text-align: left;
+	  vertical-align: middle;
+	}
+	/*=*==*=*=*=*=*=*=*=*=*=*=*=*/
+	
+	
+	/*  S U M M E R  */
+	.note-editor.note-frame{
+		border:none !important;
+	}
+	
+	.note-editor {
+		margin-bottom: 0.55em !important;
+	}
+	
+	.note-statusbar{
+		visibility: hidden;
+	}
+	
+	.note-editable.panel-body{
+		border-radius: 10px !important;
+	}
+    
+    </style>
+    
+    <!--  C S S  -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="masantes/css/plyr.css">
+
+    <!--  T I T L E  -->
+    <title>Maria Sanchez Teston</title>
+    
+    <!--  S C R I P T S  -->
+    <script type="text/javascript" src="masantes/masantes.nocache.js"></script>
+    <script type="text/javascript" src="masantes/js/jquery-3.2.1.js"></script>
+    <script src="masantes/js/plyr.js"></script>
+  
+  </head>
+
+  <!--  B O D Y  -->
+  <body>
+
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+    
+    <!-- Close collapsable navbar on click item -->
+    <script>
+		$(document).on('click',function()
+		{
+			$('.collapse').collapse('hide');
+		})
+	</script> 
+
+  </body>
+  
+</html>
+

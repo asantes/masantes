@@ -1,0 +1,2 @@
+serviceClass: com.masantes.client.services.EmailService
+path: F804D7BF7C0FF12C0B91FBB289B642D9.gwt.rpc

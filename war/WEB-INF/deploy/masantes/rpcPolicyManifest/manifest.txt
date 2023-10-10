@@ -1,0 +1,4 @@
+# Module masantes
+# RPC service class, partial path of RPC policy file
+com.masantes.client.services.EmailService, F804D7BF7C0FF12C0B91FBB289B642D9.gwt.rpc
+com.google.gwt.logging.shared.RemoteLoggingService, 9E31B1B3BE7D16726484277FAA71DEB4.gwt.rpc
